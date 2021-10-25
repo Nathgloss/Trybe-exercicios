@@ -1,8 +1,0 @@
-Internet
-Unix
-Bash
-Shell
-Kernel
-TSH
-GIT
-GITHUB
