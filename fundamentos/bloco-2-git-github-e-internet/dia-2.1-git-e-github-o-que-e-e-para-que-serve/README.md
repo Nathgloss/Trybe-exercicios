@@ -1,0 +1,1 @@
+Neste bloco foi ensinado a instalar e configurar o Git no computador, salvar os projetos no repositório Git local, controlar as alterações e versões dos seus arquivos e enviar os projetos para o repositório remoto do GitHub.
