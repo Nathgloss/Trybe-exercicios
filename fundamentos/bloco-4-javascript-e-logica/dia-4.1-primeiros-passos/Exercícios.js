@@ -85,3 +85,23 @@ if (somaDosAngulos === 180) {
      default:
          console.log("Peça inválida");
  }
+
+ //exercicio 7:
+  let notaDada = 56;
+  let nota = notaDada >= 0 && notaDada >= 100  
+  
+  if (notaDada < 0 && notaDada > 100){
+      console.log("Erro!")
+  } else if (nota >= 90) {
+      console.log("A");
+  } else if (notaDada >= 80) {
+      console.log("B");
+  } else if (notaDada >= 70) {
+      console.log("C");
+  } else if (notaDada >= 60) {
+      console.log("D");
+  } else if (notaDada >= 50) {
+      console.log("E");
+  } else {
+      console.log("F");
+  } 
