@@ -59,3 +59,29 @@ if (somaDosAngulos === 180) {
  } else {
      console.log("Ângulo Inválido.");
  } 
+
+ //exercício 6:
+ let pecaXadrez = "cavalo";
+
+ switch (pecaXadrez.toLowerCase()) {
+     case "cavalo":
+        console.log("cavalo -> anda em L");
+        break;
+     case "peão":
+        console.log("peão -> anda uma casa vazia");
+        break;
+     case "torre":
+        console.log("torre -> anda qualquer casa ao longo da coluna ou fileiraque ocupa");
+        break;
+     case "rei":
+         console.log("rei -> anda uma casa em qualquer direção");
+         break;
+     case "rainha":
+         console.log("rainha -> anda quantas casas quiser em qualquer direção");
+         break;
+     case "bispo":
+         console.log("bispo-> anda quantas casas quiser nas diagonais");
+         break;
+     default:
+         console.log("Peça inválida");
+ }
