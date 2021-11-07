@@ -130,5 +130,15 @@ if (somaDosAngulos === 180) {
    }
    console.log(impar);
 
-
-  
+//exercicio 10:
+const valorCusto = 100;
+const valorVenda = 180;
+// imposto sobre o valor de custo = 20% = 20 / 100 = 0,2
+// valorCusto -> (100) * 0,2 = 20
+ if (valorCusto >= 0 && valorVenda >= 0) {
+     const valorCustoTotal = valorCusto + 20;
+     const lucro = (valorVenda - valorCustoTotal) *1000;
+     console.log(lucro);
+ } else {
+     console.log("Erro no valor de entrada");
+ }
