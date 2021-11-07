@@ -40,3 +40,22 @@ if(valor > 0) {
 } else {
     console.log("Zero");
 }
+
+//exercício 5:
+
+const angulo1 = 60;
+const angulo2 = 70;
+const angulo3 = 50;
+
+let somaDosAngulos = angulo1 + angulo2 + angulo3;
+let parametroAngulos = angulo1 > 0 && angulo2 > 0 && angulo3 > 0;
+
+if (parametroAngulos) {
+if (somaDosAngulos === 180) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+ } else {
+     console.log("Ângulo Inválido.");
+ } 
