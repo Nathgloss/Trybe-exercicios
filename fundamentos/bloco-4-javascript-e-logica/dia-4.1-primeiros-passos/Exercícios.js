@@ -134,7 +134,7 @@ if (somaDosAngulos === 180) {
 const valorCusto = 100;
 const valorVenda = 180;
 // imposto sobre o valor de custo = 20% = 20 / 100 = 0,2
-// valorCusto -> (100) * 0,2 = 20
+// valorCusto -> (100) * 0.2 = 20
  if (valorCusto >= 0 && valorVenda >= 0) {
      const valorCustoTotal = valorCusto + 20;
      const lucro = (valorVenda - valorCustoTotal) *1000;
@@ -142,3 +142,33 @@ const valorVenda = 180;
  } else {
      console.log("Erro no valor de entrada");
  }
+
+ //exercicio 11:
+ let salarioBruto = 1896.75;
+ let aliquotaINSS;
+ let impostoRenda;
+ 
+if (salarioBruto >= 1556.94) {
+    aliquotaINSS = salarioBruto * 0.08;
+} else if (salarioBruto >= 2594.92) {
+    aliquotaINSS = salarioBruto * 0.09;
+} else if(salarioBruto >= 5189.82) {
+    aliquotaINSS = salarioBruto * 0.11;
+} else {
+    aliquotaINSS = 570.88
+};
+
+let salarioBase = salarioBruto - aliquotaINSS;
+
+if (salarioBase <= 1903.98) {
+    impostoRenda = 0;
+} else if (salarioBase <= 2826.65) {
+    impostoRenda = (salarioBase * 0.075) - 142,80;
+} else if (salarioBase <= 3751.05) {
+    impostoRenda = (salarioBase * 0.15) - 354.80;
+} else if (salarioBase <= 4664.68) {
+    impostoRenda = (salarioBase * 0.225) - 636.13;
+} else {
+    impostoRenda = (salarioBase * 0.275) - 869.36;
+};
+console.log("Salário líquido a receber: R$" + (salarioBase - impostoRenda));
