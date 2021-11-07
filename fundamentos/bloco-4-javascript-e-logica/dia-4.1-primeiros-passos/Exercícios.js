@@ -105,3 +105,16 @@ if (somaDosAngulos === 180) {
   } else {
       console.log("F");
   } 
+
+  //exercicio 8:
+  const num1 = 5;
+  const num2 = 6;
+  const num3 = 9;
+
+  let par = false;
+
+  if (num1 % 2 === 0 || num2 % 2 === 0|| num3 % 2 === 0){
+      par = true;
+    }
+    console.log(par);
+  
