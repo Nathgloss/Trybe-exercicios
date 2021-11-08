@@ -26,3 +26,14 @@ console.log(mediaAritmetica);
  } else {
      console.log("valor menor ou igual a 20");
  }
+
+ //exercício 5:
+ let maiorNumero = numbers[0]
+ for(i = 1; i < numbers.length; i+=1) {
+    if(numbers[i] > maiorNumero) {
+        maiorNumero = numbers[i];
+    } 
+ }
+ console.log(maiorNumero);
+
+ //
