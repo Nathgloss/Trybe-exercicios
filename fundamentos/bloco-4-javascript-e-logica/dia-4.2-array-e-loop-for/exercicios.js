@@ -52,11 +52,15 @@ console.log(mediaAritmetica);
 //exercício 7:
 let menorNumero = numbers[0]
  for(i = 1; i < numbers.length; i+=1) {
-    if(numbers[i] > menorNumero) {
+    if(numbers[i] < menorNumero) {
         menorNumero = numbers[i];
     } 
  }
  console.log(menorNumero);
 
  //exercício 8:
- 
+ let array25 = [];
+ for(let i = 0; i <= 25; i+=1) {
+     array25.push(i);
+ } 
+ console.log(array25);
