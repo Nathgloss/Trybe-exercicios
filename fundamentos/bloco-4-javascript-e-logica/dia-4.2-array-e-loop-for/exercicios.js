@@ -64,3 +64,8 @@ let menorNumero = numbers[0]
      array25.push(i);
  } 
  console.log(array25);
+
+ //exercício 9:
+for(i = 0; i < array25.length; i+=1) {
+     console.log(array25[i] / 2);
+} 
