@@ -36,4 +36,27 @@ console.log(mediaAritmetica);
  }
  console.log(maiorNumero);
 
- //
+ //exercício 6:
+ let somaImpares = 0;
+ for(i = 0 ; i < numbers.length ; i+=1) {
+     if (numbers[i] % 2 !== 0) {
+        somaImpares += 1;
+     }
+        if (somaImpares === 0){
+            console.log("nenhum valor ímpar encontrado");
+     } else {
+         console.log(somaImpares);
+     }
+ }
+
+//exercício 7:
+let menorNumero = numbers[0]
+ for(i = 1; i < numbers.length; i+=1) {
+    if(numbers[i] > menorNumero) {
+        menorNumero = numbers[i];
+    } 
+ }
+ console.log(menorNumero);
+
+ //exercício 8:
+ 
